@@ -70,7 +70,9 @@ button {
     height: 600px;
     width: 600px;
     background-color: whitesmoke;    
-    border-radius: 8px;
     display: flex;
-    
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
+
+/* grid node test */
