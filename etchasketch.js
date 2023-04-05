@@ -10,7 +10,18 @@ gridSize.addEventListener('input',() =>  {
     addGrid(gridSize.value);
 });
 
-//function : for each i in grid size, add square to grid
+//TODO: Make dynamic div
+const square = document.createElement('div');
+
+//function addGrid => appends squares to grid.
 function addGrid(gridSize) {
+    //600px is canvas side length.
+    let sideLength = (600/gridSize);
+   
+    square.setAttribute("style", `width: ${sideLength}px; height: ${sideLength}px; background-color: black;`)
+
+    for(let i = 0; i < gridSize; i++) {
+        grid.appendChild(square);
+    }
 
 }

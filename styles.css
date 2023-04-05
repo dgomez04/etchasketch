@@ -71,4 +71,6 @@ button {
     width: 600px;
     background-color: whitesmoke;    
     border-radius: 8px;
+    display: flex;
+    
 }
