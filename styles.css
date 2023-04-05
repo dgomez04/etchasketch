@@ -1,0 +1,74 @@
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #98DFD6;
+}
+
+#logo {
+    max-width: 400px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* controllers general tab*/
+.controllers {
+    background-color: whitesmoke;
+    border-radius: 8px;
+    width: 600px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    box-shadow: 2px 2px 3px gray;
+}
+
+button {
+    padding-left: 1px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+#eraser, #rainbow {
+    max-width: 18px;
+    max-height: 18px;
+}
+
+.colorContainer {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.gridContainer {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+/* grid */
+#grid {
+    height: 600px;
+    width: 600px;
+    background-color: whitesmoke;    
+    border-radius: 8px;
+}
